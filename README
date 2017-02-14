@@ -1,0 +1,43 @@
+NAME: Jesse Joseph
+EMAIL: jjoseph@hmc.edu
+ID: 040161840
+
+Edison serial number: FZEDA625DO12Z2S501
+
+FILES
+	- selfie.jpg, serialnumber.jpg
+		- These images were to fulfill the first deliverable. My camera is
+		terrible at focusing so I couldn't get it to make the serial number,
+		so I just added a separate image for that.
+
+	- ifconfig.PNG
+		- From USB terminal session
+
+	- winSCP.PNG, winSCP_upload.PNG, winSCP_success.PNG
+		- The tutorial you linked for scp(1) was only for linux, so I found
+		an alternative for my Windows laptop:
+			- I installed an SSH server (freeSSHd) on my laptop, but when I
+			tried to scp from the Edison, the server on my laptop wouldn't
+			accept my password.
+			- A quick look online suggested that the more popular method for 
+			Windows users is to install winSCP, which has a GUI interface
+			because nobody will ever convince Windows users to use the
+			terminal. The three screengrabs I included are the winSCP interface.
+
+	- helloworld.PNG, helloworld.c
+		- helloworld.PNG is the screengrab of the compilation and execution.
+		- helloworld.c is included because it still has Windows line endings
+		to prove that it came from my laptop
+
+	- git.PNG, screen.PNG
+		- git.PNG: git was already installed, so I just pulled a repo.
+		- screen.PNG: Since git was already installed, I used opkg to install
+		screen, which is another program I use a lot.
+
+
+NOTES
+Before I did this assignment, I had already done some setup on my
+Edison to set up my environment with my personal .bashrc and .vimrc,
+which is why my prompt isn't the default.
+
+	
